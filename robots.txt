@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://kayliehausknecht.github.io/kayliehausknecht/sitemap.xml
+Sitemap: https://kayliehausknecht.github.io/kayliehausknecht//sitemap.xml
