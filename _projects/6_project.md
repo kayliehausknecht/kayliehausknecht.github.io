@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 6
+title: Black Hole-Neutron Star Mergers
 description: a project with no image
 img:
 importance: 4
