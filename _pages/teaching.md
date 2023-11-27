@@ -16,3 +16,4 @@ nav_order: 4
 **Outreach:**
 - Science Club for Girls (Harvard Co-President)
 - Inspirit AI
+- Girls' Angle
