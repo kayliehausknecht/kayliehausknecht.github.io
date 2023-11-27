@@ -15,5 +15,10 @@ nav_order: 4
 
 **Outreach:**
 - Science Club for Girls (Harvard Co-President)
+<div class="row">
+    <div class="col-sm-12 d-flex justify-content-end">
+        {% include figure.html path="assets/img/SCFG.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 - Inspirit AI
 - Girls' Angle
