@@ -136,9 +136,10 @@ blockquote {
   img {
     width: 100%;
   }
-
+  
   .card-title {
     color: var(--global-text-color);
+    font-size: 16px; /* Adjust the size as needed */
   }
 
   .card-item {
