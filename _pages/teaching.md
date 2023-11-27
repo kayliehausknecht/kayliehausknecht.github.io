@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching & Outreach
-description: Materials for courses you taught. Replace this text with your description.
+description: Throughout college, I have taught in the physics, mathematics, and applied mathematics departments at both the undergraduate and the graduate level. I have also been involved with various educational outreach programs, through which I have helped teach STEM topics to elementary school, middle school, and high school students.
 nav: true
 nav_order: 5
 ---
