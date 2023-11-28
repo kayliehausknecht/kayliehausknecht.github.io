@@ -18,7 +18,7 @@ nav_order: 4
 <div class="row">
     <div class="col-sm-12 d-flex justify-content-end">
         <!-- Using include figure.html for consistency -->
-        {% include figure.html path="assets/img/SCFG.png" title="example image" class="img-fluid rounded z-depth-1" style="max-width: 50px; height: auto;" %}
+        {% include figure.html path="assets/img/SCFG.png" title="example image" class="img-fluid rounded z-depth-1" style="max-width: 50px !important; height: auto;" %}
     </div>
 </div>
 - Inspirit AI
