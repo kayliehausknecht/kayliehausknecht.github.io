@@ -14,9 +14,7 @@ nav_order: 4
 - Applied Mathematics 201 (Physical Mathematics) Fall 2023 with Professor Michael Brenner
 
 **STEM Outreach Work:**
-- Science Club for Girls (Harvard Co-President)
-
-    ![Image Description]({{ "/assets/img/SCFG.png" | relative_url }}){:style="width: 40%; height: auto; margin:auto; display:block;"}
+- Science Club for Girls (Harvard Co-President)  ![Image Description]({{ "/assets/img/SCFG.png" | relative_url }}){:style="width: 40%; height: auto; margin:auto; display:block;"}
 
 
 - Inspirit AI
