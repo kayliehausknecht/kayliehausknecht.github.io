@@ -23,6 +23,8 @@ nav_order: 4
 </div>
 - Inspirit AI
 - Girls' Angle
+- Theory of Calculus Harvard Summer Crash Course
+- Harvard Global Education Movement
 - Women in STEAM (Science, Technology, Engineering, Art, and Mathematics) at Lynbrook
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
