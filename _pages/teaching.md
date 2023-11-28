@@ -16,9 +16,8 @@ nav_order: 4
 **STEM Outreach Work:**
 - Science Club for Girls (Harvard Co-President)
 
-<div style="float: right;">
     ![Image Description]({{ "/assets/img/SCFG.png" | relative_url }}){:style="width: 40%; height: auto; margin:auto; display:block;"}
-</div>
+
 
 - Inspirit AI
 - Girls' Angle
