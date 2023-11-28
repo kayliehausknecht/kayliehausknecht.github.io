@@ -22,3 +22,4 @@ nav_order: 4
 </div>
 - Inspirit AI
 - Girls' Angle
+- Women in STEAM (Science, Technology, Engineering, Art, and Mathematics) at Lynbrook
