@@ -15,11 +15,9 @@ nav_order: 4
 
 **STEM Outreach Work:**
 - Science Club for Girls (Harvard Co-President)
-<div style="text-align: right;">
 
 ![Image Description]({{ "/assets/img/7.jpg" | relative_url }}){:style="width: 50%; height: auto; margin:auto; display:block;"}
 
-</div>
 - Inspirit AI
 - Girls' Angle
 - Theory of Calculus Harvard Summer Crash Course
