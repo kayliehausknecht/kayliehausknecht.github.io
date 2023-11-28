@@ -17,7 +17,7 @@ nav_order: 4
 - Science Club for Girls (Harvard Co-President)
 <div style="text-align: right;">
 
-![Image Description]({{ "/assets/img/SCFG.png" | relative_url }}){:style="margin:auto; display:block;"}
+![Image Description]({{ "/assets/img/7.jpg" | relative_url }}){:style="width: 50%; height: auto; margin:auto; display:block;"}
 
 </div>
 - Inspirit AI
