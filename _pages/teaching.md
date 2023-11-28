@@ -17,8 +17,8 @@ nav_order: 4
 - Science Club for Girls (Harvard Co-President)
 <div class="row">
     <div class="col-sm-12 d-flex justify-content-end">
-        <!-- Override max-width to a smaller value -->
-        <img src="assets/img/SCFG.png" title="example image" class="img-fluid rounded z-depth-1" style="max-width: 50px; height: auto;">
+        <!-- Ensure the image source path is correct -->
+        <img src="assets/img/SCFG.png" title="example image" class="img-fluid rounded z-depth-1" style="max-width: 50px; height: auto;" />
     </div>
 </div>
 - Inspirit AI
