@@ -24,3 +24,14 @@ nav_order: 4
 - Inspirit AI
 - Girls' Angle
 - Women in STEAM (Science, Technology, Engineering, Art, and Mathematics) at Lynbrook
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/WISTEM.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/WISTEM1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/WISTEM2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
