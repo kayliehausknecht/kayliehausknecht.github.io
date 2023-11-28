@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Differentiable Fluid Mechanics Simulations
-description: 
+description: My senior thesis research on solving inverse design and optimization problems in fluid mechanics
 img: assets/img/porous_medium.gif
 importance: 1
 category: work
