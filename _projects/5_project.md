@@ -2,7 +2,7 @@
 layout: page
 title: Modeling Laminar-Turbulent Transition (NASA)
 description: a project with a background image
-img: assets/img/1.jpg
+img: assets/img/turbulence.png
 importance: 3
 category: fun
 ---
