@@ -2,7 +2,7 @@
 layout: page
 title: Learning Local Correlations in Scanning Tunneling Microscope Data
 description: a project with no image
-img:
+img: assets/img/cdw.png
 importance: 4
 category: fun
 ---
