@@ -2,7 +2,7 @@
 layout: page
 title: Differentiable Cosmology
 description: another without an image
-img:
+img: assets/img/cmb.jpeg
 importance: 3
 category: fun
 ---
