@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Black Hole-Neutron Star Mergers
+title: Learning Local Correlations in Scanning Tunneling Microscope Data
 description: a project with no image
 img:
 importance: 4
