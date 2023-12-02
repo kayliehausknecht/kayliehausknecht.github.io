@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications & Conference Talks
+title: Publications & Talks
 description:
 sections:
   - bibquery: "@article"
