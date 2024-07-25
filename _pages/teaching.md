@@ -8,10 +8,9 @@ nav_order: 4
 ---
 
 **Teaching at Harvard:**
-- Math 23a (Linear Algebra and Real Analysis I) Summer 2020 with Dr. Paul Bamberg
-- Math 23a (Linear Algebra and Real Analysis I) Fall 2020 with Dr. Paul Bamberg
-- Physics 15a (Introductory Mechanics and Relativity) Fall 2021 with Dr. David Morin
-- Applied Mathematics 201 (Physical Mathematics) Fall 2023 with Professor Michael Brenner
+- Math 23a (Linear Algebra and Real Analysis I)
+- Physics 15a (Introductory Mechanics and Relativity)
+- Applied Mathematics 201 (Physical Mathematics)
 
 **STEM Outreach Work:**
 - Science Club for Girls (Harvard Co-President)  ![Image Description]({{ "/assets/img/SCFG.png" | relative_url }}){:style="width: 40%; height: auto; margin:auto; display:block;"}
