@@ -11,4 +11,4 @@ related_publications:
 In Professor Michael Brenner's lab, I have been working on developing fully differentiable fluid simulations.
 
 
-<object data="/assets/pdf/dfd_pdf.pdf" width="800" height="800" type='application/pdf'></object>
+<object data="/assets/pdf/senior_thesis.pdf" width="800" height="800" type='application/pdf'></object>
