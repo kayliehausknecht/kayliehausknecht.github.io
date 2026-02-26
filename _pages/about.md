@@ -16,4 +16,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a second year PhD student in the MIT Physics department. In 2024, I graduated from Harvard with a degree in physics and astrophysics.
+I am a second year PhD student in the MIT Physics department, where my research is supported by the Hertz Fellowship and the NSF Graduate Research Fellowship Program. In 2024, I graduated from Harvard with a degree in physics and astrophysics.
