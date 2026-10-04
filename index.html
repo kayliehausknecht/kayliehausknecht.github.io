@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kaylie Hausknecht — Home</title>
+  <meta name="description" content="Academic portfolio, research publications, talks, and curriculum vitae of Kaylie Hausknecht." />
+
+  <!-- Site Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Google Analytics 4 (GA4) Central Loader -->
+  <script src="js/analytics.js"></script>
+</head>
+<body>
+  <!-- Sticky Top Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <div class="site-brand"></div>
+
+      <div class="nav-wrapper">
+        <nav aria-label="Primary Navigation">
+          <ul class="site-nav">
+            <li><a href="index.html" class="nav-link active" id="nav-home" aria-current="page">Home</a></li>
+            <li><a href="papers-and-talks.html" class="nav-link" id="nav-papers-talks">Papers &amp; Talks</a></li>
+            <li><a href="cv.html" class="nav-link" id="nav-cv">CV</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <div class="container">
+      <!-- Hero / Bio Section -->
+      <section class="hero-grid" aria-labelledby="hero-heading">
+        <div class="hero-bio">
+          <h1 id="hero-heading">Kaylie Hausknecht</h1>
+          <!-- TODO: Update your primary title, department, and institution below -->
+          <p class="hero-subtitle">
+            [Your Role / Degree Program] · [Institution]
+          </p>
+
+          <!-- TODO: Replace with your personal biography paragraphs -->
+          <p>
+            Welcome! I am a researcher at <strong>[Institution / Lab]</strong>.
+            [Add a few sentences introducing your background and current work.]
+          </p>
+          <p>
+            Previously, I completed my <strong>[Previous Degree]</strong> at <strong>[Previous Institution]</strong>.
+            Feel free to reach out regarding collaborations, talks, or academic inquiries.
+          </p>
+
+          <!-- Contact & Academic Profile Links (Automatically tracked via GA4 data-ga-event) -->
+          <div class="social-row" aria-label="Academic and Contact Links">
+            <a
+              href="mailto:your.email@institution.edu"
+              class="social-btn"
+              id="link-email"
+              data-ga-event="outbound_social_click"
+              data-ga-category="contact"
+              data-ga-label="Email"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+              Email
+            </a>
+
+            <a
+              href="https://scholar.google.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-btn"
+              id="link-scholar"
+              data-ga-event="outbound_social_click"
+              data-ga-category="social"
+              data-ga-label="Google Scholar"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+              Google Scholar
+            </a>
+
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-btn"
+              id="link-linkedin"
+              data-ga-event="outbound_social_click"
+              data-ga-category="social"
+              data-ga-label="LinkedIn"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+
+        <!-- Portrait / Visual Frame (Replace assets/profile-placeholder.jpg with your photo) -->
+        <aside class="portrait-card" aria-label="Portrait">
+          <div class="portrait-img-wrap">
+            <img
+              src="assets/profile-placeholder.jpg"
+              alt="Kaylie Hausknecht portrait or editorial visual"
+              id="hero-portrait-img"
+            />
+          </div>
+          <div class="portrait-caption">
+            <span>[Location / Office]</span>
+          </div>
+        </aside>
+      </section>
+
+      <!-- Recent News & Highlights Section -->
+      <section class="section" aria-labelledby="news-heading">
+        <div class="section-header">
+          <div>
+            <h2 id="news-heading">Recent News</h2>
+          </div>
+          <a href="papers-and-talks.html" class="section-link" id="home-to-papers-link">
+            View papers &amp; talks &rarr;
+          </a>
+        </div>
+
+        <ul class="news-list">
+          <li class="news-item">
+            <span class="news-date">[Month YYYY]</span>
+            <span class="news-text">
+              New preprint or publication: <em>"[Paper Title Placeholder]"</em> is now available on
+              <a href="papers-and-talks.html">Papers &amp; Talks</a>.
+            </span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">[Month YYYY]</span>
+            <span class="news-text">
+              Presented a talk on <strong>[Talk Topic Placeholder]</strong> at [Conference / Seminar Name].
+            </span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">[Month YYYY]</span>
+            <span class="news-text">
+              Started position / fellowship at <strong>[Institution / Program Name]</strong>.
+            </span>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        &copy; <span id="footer-year">2026</span> Kaylie Hausknecht
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

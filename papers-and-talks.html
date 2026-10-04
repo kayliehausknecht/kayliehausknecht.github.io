@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Papers &amp; Talks — Kaylie Hausknecht</title>
+  <meta name="description" content="Publications, preprints, and conference presentations by Kaylie Hausknecht." />
+
+  <!-- Site Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Google Analytics 4 (GA4) Central Loader -->
+  <script src="js/analytics.js"></script>
+</head>
+<body>
+  <!-- Sticky Top Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <div class="site-brand">
+        <span class="brand-name">Kaylie Hausknecht</span>
+      </div>
+
+      <div class="nav-wrapper">
+        <nav aria-label="Primary Navigation">
+          <ul class="site-nav">
+            <li><a href="index.html" class="nav-link" id="nav-home">Home</a></li>
+            <li><a href="papers-and-talks.html" class="nav-link active" id="nav-papers-talks" aria-current="page">Papers &amp; Talks</a></li>
+            <li><a href="cv.html" class="nav-link" id="nav-cv">CV</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <div class="container">
+      <header class="page-header">
+        <h1>Papers &amp; Talks</h1>
+        <p>
+          For a complete list of publications and citations, see
+          <a
+            href="https://scholar.google.com/citations?user=1V0sqLEAAAAJ&amp;hl=en&amp;inst=4757196112871156912"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-ga-event="outbound_social_click"
+            data-ga-label="Google Scholar Header Link"
+          >Google Scholar</a>.
+        </p>
+      </header>
+
+      <!-- Interactive Filter & Search Controls -->
+      <div class="filter-bar" role="region" aria-label="Filter papers and talks">
+        <div class="filter-tabs" role="tablist">
+          <button type="button" class="filter-tab active" data-filter-type="all" role="tab" aria-selected="true" id="tab-all">
+            All
+          </button>
+          <button type="button" class="filter-tab" data-filter-type="paper" role="tab" aria-selected="false" id="tab-papers">
+            Papers
+          </button>
+          <button type="button" class="filter-tab" data-filter-type="talk" role="tab" aria-selected="false" id="tab-talks">
+            Talks
+          </button>
+        </div>
+
+        <div class="search-input-wrap">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input
+            type="search"
+            id="pub-search-input"
+            class="search-input"
+            placeholder="Filter by keyword, venue, or year..."
+            aria-label="Filter publications and talks by keyword"
+          />
+        </div>
+      </div>
+
+      <!-- ==================================================================
+           PAPERS SECTION
+           ================================================================== -->
+      <section class="entry-group" id="group-papers" aria-labelledby="heading-papers">
+        <h2 class="entry-group-title" id="heading-papers">
+          <span>Papers</span>
+          <span class="entry-count">3 entries</span>
+        </h2>
+
+        <div class="pub-list">
+          <!-- Paper 1: HARDMath -->
+          <article class="pub-card" data-item-type="paper" id="paper-hardmath">
+            <div class="pub-meta-top">
+              <span class="pub-badge">ICLR 2025</span>
+              <span class="pub-year">2025</span>
+            </div>
+
+            <h3 class="pub-title">
+              HARDMath: A Benchmark Dataset for Challenging Problems in Applied Mathematics
+            </h3>
+
+            <p class="pub-authors">
+              Jingxuan Fan*, Sarah Martinson*, Erik Wang*, <strong>Kaylie Hausknecht*</strong>, Jonah Brenner, Danxian Liu, Nianli Peng, Corey Wang, Michael Brenner (2024)
+            </p>
+
+            <p class="pub-venue">
+              ICLR 2025 · <span>*Equal contribution</span>
+            </p>
+
+            <div class="pub-actions">
+              <a
+                href="https://iclr.cc/virtual/2025/poster/28419"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="action-chip"
+                data-ga-event="paper_click"
+                data-ga-category="publication"
+                data-ga-type="paper"
+                data-ga-label="HARDMath - ICLR"
+              >
+                ICLR
+              </a>
+              <a
+                href="https://arxiv.org/abs/2410.09988"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="action-chip"
+                data-ga-event="paper_click"
+                data-ga-category="publication"
+                data-ga-type="arxiv"
+                data-ga-label="HARDMath - arXiv"
+              >
+                arXiv
+              </a>
+              <button
+                type="button"
+                class="action-chip"
+                data-drawer-target="bibtex-hardmath"
+                aria-expanded="false"
+              >
+                BibTeX
+              </button>
+            </div>
+
+            <div class="drawer-panel" id="bibtex-hardmath">
+              <pre class="bibtex-pre" id="bibtex-code-hardmath">@inproceedings{fan2025hardmath,
+  title     = {HARDMath: A Benchmark Dataset for Challenging Problems in Applied Mathematics},
+  author    = {Fan, Jingxuan and Martinson, Sarah and Wang, Erik and Hausknecht, Kaylie and Brenner, Jonah and Liu, Danxian and Peng, Nianli and Wang, Corey and Brenner, Michael},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2025}
+}</pre>
+              <button
+                type="button"
+                class="copy-btn"
+                data-copy-target="bibtex-code-hardmath"
+                data-ga-label="HARDMath BibTeX"
+              >
+                Copy BibTeX
+              </button>
+            </div>
+          </article>
+
+          <!-- Paper 2: PNAS Complex Fluids -->
+          <article class="pub-card" data-item-type="paper" id="paper-pnas-fluids">
+            <div class="pub-meta-top">
+              <span class="pub-badge">PNAS</span>
+              <span class="pub-year">2024</span>
+            </div>
+
+            <h3 class="pub-title">
+              Control of Flow Behavior in Complex Fluids Using Automatic Differentiation
+            </h3>
+
+            <p class="pub-authors">
+              Mohammed Alhashim, <strong>Kaylie Hausknecht</strong>, Michael Brenner (2024)
+            </p>
+
+            <p class="pub-venue">
+              Proceedings of the National Academy of Sciences of the United States of America (PNAS), 122(8)
+            </p>
+
+            <div class="pub-actions">
+              <a
+                href="https://www.pnas.org/doi/10.1073/pnas.2403644122"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="action-chip"
+                data-ga-event="paper_click"
+                data-ga-category="publication"
+                data-ga-type="doi"
+                data-ga-label="Control of Flow Behavior - PNAS"
+              >
+                PNAS
+              </a>
+              <a
+                href="https://arxiv.org/abs/2403.06257"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="action-chip"
+                data-ga-event="paper_click"
+                data-ga-category="publication"
+                data-ga-type="arxiv"
+                data-ga-label="Control of Flow Behavior - arXiv"
+              >
+                arXiv
+              </a>
+              <button
+                type="button"
+                class="action-chip"
+                data-drawer-target="bibtex-pnas"
+                aria-expanded="false"
+              >
+                BibTeX
+              </button>
+            </div>
+
+            <div class="drawer-panel" id="bibtex-pnas">
+              <pre class="bibtex-pre" id="bibtex-code-pnas">@article{alhashim2025control,
+  title   = {Control of Flow Behavior in Complex Fluids Using Automatic Differentiation},
+  author  = {Alhashim, Mohammed and Hausknecht, Kaylie and Brenner, Michael},
+  journal = {Proceedings of the National Academy of Sciences},
+  volume  = {122},
+  number  = {8},
+  doi     = {10.1073/pnas.2403644122},
+  year    = {2025}
+}</pre>
+              <button
+                type="button"
+                class="copy-btn"
+                data-copy-target="bibtex-code-pnas"
+                data-ga-label="Control of Flow Behavior BibTeX"
+              >
+                Copy BibTeX
+              </button>
+            </div>
+          </article>
+
+          <!-- Paper 3: ExoMiner -->
+          <article class="pub-card" data-item-type="paper" id="paper-exominer">
+            <div class="pub-meta-top">
+              <span class="pub-badge">The Astrophysical Journal</span>
+              <span class="pub-year">2022</span>
+            </div>
+
+            <h3 class="pub-title">
+              ExoMiner: A Highly Accurate and Explainable Deep Learning Classifier that Validates 301 New Exoplanets
+            </h3>
+
+            <p class="pub-authors">
+              Hamed Valizadegan, Miguel Martinho, Laurent S. Wilkens, Jon M. Jenkins, Jeffrey Smith, Douglas A. Caldwell, Joseph D. Twicken, Pedro C. Gerum, Nikash Walia, <strong>Kaylie Hausknecht</strong>, Noa Y. Lubin, Stephen T. Bryson, Nikunj C. Oza (2022)
+            </p>
+
+            <p class="pub-venue">
+              The Astrophysical Journal, 926(2), 120
+            </p>
+
+            <div class="pub-actions">
+              <a
+                href="https://iopscience.iop.org/article/10.3847/1538-4357/ac4399/meta"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="action-chip"
+                data-ga-event="paper_click"
+                data-ga-category="publication"
+                data-ga-type="doi"
+                data-ga-label="ExoMiner - ApJ"
+              >
+                ApJ
+              </a>
+              <a
+                href="https://arxiv.org/abs/2111.10009"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="action-chip"
+                data-ga-event="paper_click"
+                data-ga-category="publication"
+                data-ga-type="arxiv"
+                data-ga-label="ExoMiner - arXiv"
+              >
+                arXiv
+              </a>
+              <button
+                type="button"
+                class="action-chip"
+                data-drawer-target="bibtex-exominer"
+                aria-expanded="false"
+              >
+                BibTeX
+              </button>
+            </div>
+
+            <div class="drawer-panel" id="bibtex-exominer">
+              <pre class="bibtex-pre" id="bibtex-code-exominer">@article{valizadegan2022exominer,
+  title   = {ExoMiner: A Highly Accurate and Explainable Deep Learning Classifier That Validates 301 New Exoplanets},
+  author  = {Valizadegan, Hamed and Martinho, Miguel and Wilkens, Laurent S. and Jenkins, Jon M. and Smith, Jeffrey C. and Caldwell, Douglas A. and Twicken, Joseph D. and Gerum, Pedro C. L. and Walia, Nikash and Hausknecht, Kaylie and Lubin, Noa Y. and Bryson, Stephen T. and Oza, Nikunj C.},
+  journal = {The Astrophysical Journal},
+  volume  = {926},
+  number  = {2},
+  pages   = {120},
+  doi     = {10.3847/1538-4357/ac4399},
+  year    = {2022}
+}</pre>
+              <button
+                type="button"
+                class="copy-btn"
+                data-copy-target="bibtex-code-exominer"
+                data-ga-label="ExoMiner BibTeX"
+              >
+                Copy BibTeX
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           TALKS SECTION
+           ================================================================== -->
+      <section class="entry-group" id="group-talks" aria-labelledby="heading-talks">
+        <h2 class="entry-group-title" id="heading-talks">
+          <span>Talks</span>
+          <span class="entry-count">10 entries</span>
+        </h2>
+
+        <div class="pub-list">
+          <!-- Talk 1 -->
+          <article class="pub-card" data-item-type="talk" id="talk-iclr-2025">
+            <div class="pub-meta-top">
+              <span class="pub-year">April 2025</span>
+            </div>
+
+            <h3 class="pub-title">
+              HARDMath: A Benchmark Dataset for Challenging Problems in Applied Mathematics
+            </h3>
+
+            <p class="pub-venue">
+              ICLR · Singapore
+            </p>
+
+            <div class="pub-actions">
+              <a
+                href="https://iclr.cc/virtual/2025/poster/28419"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="action-chip"
+                data-ga-event="talk_click"
+                data-ga-category="talk"
+                data-ga-label="HARDMath - ICLR 2025"
+              >
+                Conference Abstract
+              </a>
+            </div>
+          </article>
+
+          <!-- Talk 2 -->
+          <article class="pub-card" data-item-type="talk" id="talk-neurips-2024">
+            <div class="pub-meta-top">
+              <span class="pub-year">December 2024</span>
+            </div>
+
+            <h3 class="pub-title">
+              HARDMath: A Benchmark Dataset for Challenging Problems in Applied Mathematics
+            </h3>
+
+            <p class="pub-venue">
+              NeurIPS Math AI Workshop · Vancouver, Canada
+            </p>
+
+            <div class="pub-actions">
+              <a
+                href="https://neurips.cc/virtual/2024/98495"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="action-chip"
+                data-ga-event="talk_click"
+                data-ga-category="talk"
+                data-ga-label="HARDMath - NeurIPS Math AI Workshop"
+              >
+                Conference Abstract
+              </a>
+            </div>
+          </article>
+
+          <!-- Talk 3 -->
+          <article class="pub-card" data-item-type="talk" id="talk-iaifi-2024">
+            <div class="pub-meta-top">
+              <span class="pub-year">August 2024</span>
+            </div>
+
+            <h3 class="pub-title">
+              Inverse Design of Complex Fluids with Fully Differentiable Particle Dynamics
+            </h3>
+
+            <p class="pub-venue" style="margin-bottom: 0;">
+              Institute for Artificial Intelligence and Fundamental Interactions (IAIFI) Summer Workshop · Cambridge, MA
+            </p>
+          </article>
+
+          <!-- Talk 4 -->
+          <article class="pub-card" data-item-type="talk" id="talk-aps-dfd-2023">
+            <div class="pub-meta-top">
+              <span class="pub-year">November 2023</span>
+            </div>
+
+            <h3 class="pub-title">
+              Optimizing Mixing in Porous Media via Automatic Differentiation
+            </h3>
+
+            <p class="pub-venue">
+              American Physical Society Division of Fluid Dynamics Annual Meeting · Washington, DC
+            </p>
+
+            <div class="pub-actions">
+              <a
+                href="https://meetings.aps.org/Meeting/DFD23/Session/J33.2"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="action-chip"
+                data-ga-event="talk_click"
+                data-ga-category="talk"
+                data-ga-label="Optimizing Mixing in Porous Media - APS DFD 2023"
+              >
+                Conference Abstract
+              </a>
+            </div>
+          </article>
+
+          <!-- Talk 5 -->
+          <article class="pub-card" data-item-type="talk" id="talk-ai-dynamic-2023">
+            <div class="pub-meta-top">
+              <span class="pub-year">July 2023</span>
+            </div>
+
+            <h3 class="pub-title">
+              Optimizing Chaotic Mixing with Automatic Differentiation
+            </h3>
+
+            <p class="pub-venue">
+              AI Institute in Dynamic Systems · Seattle, WA
+            </p>
+
+            <div class="pub-actions">
+              <a
+                href="https://drive.google.com/file/d/1vut6llcpRug36JOc5EWHYMFBPO5Kjx-Z/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="action-chip"
+                data-ga-event="talk_click"
+                data-ga-category="talk"
+                data-ga-label="Optimizing Chaotic Mixing - AI Institute in Dynamic Systems 2023"
+              >
+                Conference Abstract
+              </a>
+            </div>
+          </article>
+
+          <!-- Talk 6 -->
+          <article class="pub-card" data-item-type="talk" id="talk-aps-mar-2021">
+            <div class="pub-meta-top">
+              <span class="pub-year">March 2021</span>
+            </div>
+
+            <h3 class="pub-title">
+              Machine Learning Correlates Charge Density Wave with the Local Gap in Cuprate Superconductors
+            </h3>
+
+            <p class="pub-venue">
+              American Physical Society March Meeting · Virtual
+            </p>
+
+            <div class="pub-actions">
+              <a
+                href="https://meetings.aps.org/Meeting/MAR21/Session/V60.2"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="action-chip"
+                data-ga-event="talk_click"
+                data-ga-category="talk"
+                data-ga-label="ML Correlates CDW with Local Gap - APS March Meeting 2021"
+              >
+                Conference Abstract
+              </a>
+            </div>
+          </article>
+
+          <!-- Talk 7 -->
+          <article class="pub-card" data-item-type="talk" id="talk-cuwip-2021">
+            <div class="pub-meta-top">
+              <span class="pub-year">January 2021</span>
+            </div>
+
+            <h3 class="pub-title">
+              Machine Learning Correlates Charge Density Wave with the Local Gap in Cuprate Superconductors
+            </h3>
+
+            <p class="pub-venue">
+              American Physical Society Conference for Undergraduate Women in Physics · Virtual
+            </p>
+
+            <div class="pub-actions">
+              <a
+                href="https://meetings.aps.org/Meeting/CUWIP21/Session/U03.1"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="action-chip"
+                data-ga-event="talk_click"
+                data-ga-category="talk"
+                data-ga-label="ML Correlates CDW with Local Gap - APS CUWiP 2021"
+              >
+                Conference Abstract
+              </a>
+            </div>
+          </article>
+
+          <!-- Talk 8 -->
+          <article class="pub-card" data-item-type="talk" id="talk-simons-2020">
+            <div class="pub-meta-top">
+              <span class="pub-year">January 2020</span>
+            </div>
+
+            <h3 class="pub-title">
+              Local correlations in disordered materials with neural networks
+            </h3>
+
+            <p class="pub-venue">
+              Machine Learning Quantum Matter Data, Simons Foundation · New York, NY
+            </p>
+
+            <div class="pub-actions">
+              <a
+                href="https://www.simonsfoundation.org/event/machine-learning-quantum-matter-data/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="action-chip"
+                data-ga-event="talk_click"
+                data-ga-category="talk"
+                data-ga-label="Local correlations in disordered materials - Simons Foundation 2020"
+              >
+                Conference Page
+              </a>
+            </div>
+          </article>
+
+          <!-- Talk 9 -->
+          <article class="pub-card" data-item-type="talk" id="talk-aps-mar-2019">
+            <div class="pub-meta-top">
+              <span class="pub-year">March 2019</span>
+            </div>
+
+            <h3 class="pub-title">
+              Machine Learning Correlates CDW Properties with Local Gap in Cuprates
+            </h3>
+
+            <p class="pub-venue">
+              American Physical Society March Meeting · Boston, MA
+            </p>
+
+            <div class="pub-actions">
+              <a
+                href="https://meetings.aps.org/Meeting/MAR19/Session/B18.12"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="action-chip"
+                data-ga-event="talk_click"
+                data-ga-category="talk"
+                data-ga-label="ML Correlates CDW Properties - APS March Meeting 2019"
+              >
+                Conference Abstract
+              </a>
+            </div>
+          </article>
+
+          <!-- Talk 10 -->
+          <article class="pub-card" data-item-type="talk" id="talk-iss-2018">
+            <div class="pub-meta-top">
+              <span class="pub-year">July 2018</span>
+            </div>
+
+            <h3 class="pub-title">
+              Identifying Inhibitors of T-Cell Activation in Microgravity: Proposal for the International Space Station
+            </h3>
+
+            <p class="pub-venue">
+              International Space Station R&amp;D Conference · San Francisco, CA
+            </p>
+
+            <div class="pub-actions">
+              <a
+                href="https://patch.com/new-york/malverne-lynbrook/lynbrook-students-experiment-could-go-space"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="action-chip"
+                data-ga-event="talk_click"
+                data-ga-category="talk"
+                data-ga-label="Identifying Inhibitors of T-Cell Activation - ISS R&D 2018"
+              >
+                News Article
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        &copy; <span id="footer-year">2026</span> Kaylie Hausknecht
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

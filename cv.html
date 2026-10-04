@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV — Kaylie Hausknecht</title>
+  <meta name="description" content="Curriculum Vitae of Kaylie Hausknecht." />
+
+  <!-- Site Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Google Analytics 4 (GA4) Central Loader -->
+  <script src="js/analytics.js"></script>
+</head>
+<body>
+  <!-- Sticky Top Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <div class="site-brand">
+        <span class="brand-name">Kaylie Hausknecht</span>
+      </div>
+
+      <div class="nav-wrapper">
+        <nav aria-label="Primary Navigation">
+          <ul class="site-nav">
+            <li><a href="index.html" class="nav-link" id="nav-home">Home</a></li>
+            <li><a href="papers-and-talks.html" class="nav-link" id="nav-papers-talks">Papers &amp; Talks</a></li>
+            <li><a href="cv.html" class="nav-link active" id="nav-cv" aria-current="page">CV</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <div class="container">
+      <!-- CV Header (Replace assets/cv.pdf with your CV PDF file) -->
+      <header class="cv-header-bar">
+        <div>
+          <h1>CV</h1>
+        </div>
+      </header>
+
+      <!-- Embedded PDF Viewer -->
+      <section class="cv-pdf-container" aria-label="Embedded Curriculum Vitae PDF">
+        <object
+          data="assets/cv.pdf"
+          type="application/pdf"
+          class="cv-pdf-frame"
+          aria-label="Kaylie Hausknecht CV PDF"
+        >
+          <iframe
+            src="assets/cv.pdf"
+            class="cv-pdf-frame"
+            title="Kaylie Hausknecht CV PDF"
+          >
+            <p style="padding: 2rem;">
+              Your browser does not support inline PDF viewing.
+              <a href="assets/cv.pdf" download>Click here to download the CV PDF</a>.
+            </p>
+          </iframe>
+        </object>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        &copy; <span id="footer-year">2026</span> Kaylie Hausknecht
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
